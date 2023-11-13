@@ -1,0 +1,27 @@
+<h1>{{ title | titlecase }}</h1>
+
+    <input
+      class="main-block__input"
+      type="text"
+      placeholder="Filter products"
+      [(ngModel)]="term"
+    />
+
+    <p *ngIf="loading">Loading...</p>
+
+    <div *ngIf="productsServuce.products">
+      <app-product
+        *ngFor="let product of productsServuce.products | filterProduct: term"
+        [product]="product"
+      >
+      </app-product>
+    </div>
+
+    <app-modal
+      *ngIf="modalService.isVisible$ | async"
+      title="Create new product"
+    >
+      <app-create-product></app-create-product>
+    </app-modal>
+
+    <button class="main-block__button" (click)="modalService.open()">+</button>
