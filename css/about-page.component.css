@@ -1,0 +1,23 @@
+img {
+  width: 200px;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: rgb(28, 35, 136);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.a {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 100px;
+}
+
+.b {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=about-page.component.css.map */

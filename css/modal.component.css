@@ -1,6 +1,6 @@
 .main {
   background: #000;
-	opacity: 0.6;
+  opacity: 0.6;
   position: fixed;
   top: 0;
   left: 0;
@@ -18,11 +18,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 8px;
-  &-block {
-    padding: 20px;
-    &__title {
-      display: flex;
-      justify-content: center;
-    }
-  }
 }
+.modal-block {
+  padding: 20px;
+}
+.modal-block__title {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=modal.component.css.map */

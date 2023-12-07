@@ -1,0 +1,21 @@
+.main-block__input {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  border-color: rgb(212, 212, 212);
+  font-size: 20px;
+}
+.main-block__button {
+  position: fixed;
+  background-color: #ffa136;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  bottom: 10px;
+  right: 10px;
+}/*# sourceMappingURL=product-page.component.css.map */

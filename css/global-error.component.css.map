@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/app/components/global-error/global-error.component.scss","global-error.component.css"],"names":[],"mappings":"AAAA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,kCAAA;EACA,YAAA;EACA,kBAAA;ACCF;ADAE;EACE,uBAAA;EACA,YAAA;EACA,YAAA;EACA,eAAA;EACA,kBAAA;EACA,UAAA;EACA,QAAA;ACEJ","file":"global-error.component.css"}
